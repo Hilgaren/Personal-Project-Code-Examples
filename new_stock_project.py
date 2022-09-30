@@ -52,8 +52,8 @@ csv_file = "Anew_universe.csv"
 #try:
 #    connection = connect(
 #            host="localhost",
-#            user="Hilgaren", #input("Enter username: "),
-#            password="Resistance1sFutile!", #getpass("Enter password: "),
+#            user="XXXX", #input("Enter username: "),
+#            password="XXXX", #getpass("Enter password: "),
 #            database="market_universe",
 #        )
 #except Error as e:
@@ -86,7 +86,7 @@ csv_file = "Anew_universe.csv"
 
 #  
 #engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}"
-#				.format(host="localhost", db="market_universe", user="Hilgaren", pw="Resistance1sFutile!"))
+#				.format(host="localhost", db="market_universe", user="XXXX", pw="XXXX"))
 #df.to_sql('market_universe', con = engine, if_exists = 'append', chunksize = 1000,index=False)
 
 
